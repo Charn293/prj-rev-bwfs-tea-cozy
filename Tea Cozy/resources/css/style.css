@@ -1,0 +1,116 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+
+}
+
+.title img {
+  height: 50px;
+  margin: 0;
+  padding-left: 10px;
+  color: seashell;
+}
+
+header {
+  font-family: "helvetica" sans-serif;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+}
+
+header .tc-nav {
+padding: 20px 10px 20px 10px;
+margin-right: 10px;
+}
+
+a {
+  color: seashell;
+  font-weight: bold;
+}
+
+/*Our Mission section*/
+
+.mission-description {
+  background-image: url("../images/mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+  }
+
+/*Tea of month section*/
+
+.tea-of-month {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 1200px;
+}
+
+.tea-choice img {
+  height: 200px;
+  width: 300px;
+  padding: 0 10px;
+}
+
+.tea-specials {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+}
+
+/*Locations section*/
+
+.tea-chain {
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/locations-background.jpg");
+}
+
+.tea-locations {
+  text-align: center;
+  padding-top: 60px;
+  width: 1200px;
+}
+
+.tea-venues {
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+
+  }
+
+  .maine-locations {
+padding: 7.5px 20px;
+  }
+
+/*Contact details*/
+
+.contact {
+  width: 1200px;
+  height: 200px;
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
